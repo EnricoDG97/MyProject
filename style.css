@@ -1,0 +1,88 @@
+*{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+
+.container{
+  width: 950px;
+  height: 660px;
+  margin: auto;
+  background-color: rgba(00,00,00,0.5);
+  border-radius: 16px;
+  box-sizing: border-box;
+  padding: 5%;
+}
+
+.logo{
+  width: 25%;
+}
+
+.logo-text{
+  color: rgb(00,220,00);
+  font-size: 25px;
+}
+
+header, .nav-bar{
+  text-align: center;
+}
+
+.nav-bar{
+  background-color: rgb(0,220,0);
+  padding: 1%;
+}
+
+nav button{
+  font-size: 10px;
+}
+
+main{
+  color: white;
+}
+
+.scooter-name{
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.scooter-location, .scooter-battery{
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.scooter-location:before {
+  content: "\21A6";
+}
+
+#battery-one, #battery-two, #battery-three{
+  height: 25px;
+  border-radius: 4px;
+  margin-top: 4px;
+}
+
+#battery-one{
+  width: 35%;
+  background-color: rgb(245,180,83);
+}
+
+#battery-two{
+  width: 60%;
+  background-color: rgb(30,195,30);
+}
+
+#battery-three{
+  width: 15%;
+  background-color: rgb(190,65,65);
+}
+
+footer{
+  text-align: right;
+  margin-right: 25px;
+  font-size: 12px;
+  color: black;
+  font-weight: bolder;
+}

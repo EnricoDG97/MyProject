@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- link a file css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- link font "Ubuntu" -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <title>LIM - Coding Challenge</title>
+  </head>
+  <body>
+    <div class="container"> <!-- riquadro opacizzato in background-->
+      <header>  <!-- testata con logo e capitolo -->
+        <img class="logo" src="logo.png">
+        <h1 class="logo-text">
+          Taking Booleaner from A to B
+        </h1>
+      </header>
+      <nav> <!-- barra di navigazione con bottoni -->
+        <div class="nav-bar">
+          <button type="button">Prenota</button>
+          <button type="button">Termina Prenotazione</button>
+          <button type="button">Accendi Luci</button>
+        </div>
+      </nav>
+      <main>  <!-- corpo principale con sezioni per ogni monopattino -->
+        <section> <!--prima pila info monopattino-->
+          <div class="scooter-name">
+            <input type="checkbox" class="scooter-chosen">
+            Monopattino Gino22
+          </div>
+          <div class="scooter-location">
+            Via Guadalametri - a 220 metri da te
+          </div>
+          <div class="scooter-battery">
+            Stato carica:
+            <div id="battery-one" class="battery-level"></div>
+          </div>
+        </section>
+        <section> <!-- seconda pila info monopattino-->
+          <div class="scooter-name">
+            <input type="checkbox" class="scooter-chosen">
+            Monopattino Mike24
+          </div>
+          <div class="scooter-location">
+            Via Ricciardoni - a 420 metri da te
+          </div>
+          <div class="scooter-battery">
+            Stato carica:
+            <div id="battery-two" class="battery-level"></div>
+          </div>
+        </section>
+        <section> <!--terza pila info monopattino-->
+          <div class="scooter-name">
+            <input type="checkbox" class="scooter-chosen">
+            Monopattino Fede154
+          </div>
+          <div class="scooter-location">
+            Via Mentarini - a 490 metri da te
+          </div>
+          <div class="scooter-battery">
+            Stato carica:
+            <div id="battery-three" class="battery-level"></div>
+          </div>
+        </section>
+      </main>
+    </div>
+    <footer> <!-- firma personale -->
+      made by Enrico <br>
+      Thanks to Boolean Careers
+    </footer>
+  </body>
+</html>
